@@ -13,7 +13,7 @@ public class EncryptionClass
 	public String encode(String msg) 
 	{
 		// TODO Auto-generated method stub
-		return null; 
+		return null;  
 	}
 
 	public String decode(String cypher) 
