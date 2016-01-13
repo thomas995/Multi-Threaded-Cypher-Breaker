@@ -6,4 +6,5 @@ or a 'zigzag' format.
 *Once a phrase has been entered, you are given the option to press any key you want, this allows the program to read from the file(txtFile.txt)
 *Once the key is entered, it displays the words in encrypted and decrypted form, while also displaying those words in the zigzag format
 *Any phrase can also be added to the txtFile.txt by simply typing it out without spaces in the file
+*All the code and files can be found in the OOP folder of the project and not in the MultiThreadedCypherProject which was created early on due to a pushing to GitHub problem.
 
