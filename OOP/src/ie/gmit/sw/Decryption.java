@@ -11,7 +11,7 @@ public class Decryption implements Runnable
 	
 	public Decryption(BlockingQueue<Resultable> queue, String cypherText) 
 	{
-		// makes class a superclass
+		// calls from the super class
 		super();
 		this.queue = queue;
 		this.cypText = cypherText;
@@ -20,8 +20,8 @@ public class Decryption implements Runnable
 	public void run() 
 	{
 		
-		//Get the Phrase
-		Resultable r = null; // Create a result
+		// calls an instance of the interface
+		Resultable r = null; 
 		try
 		{
 			queue.put(r);

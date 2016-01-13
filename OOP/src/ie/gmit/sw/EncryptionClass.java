@@ -3,7 +3,7 @@ package ie.gmit.sw;
 public class EncryptionClass 
 {
 
-	// allows the code for the console input to work
+	// allows the code for the console-input to work that is coded in the RailFence main 
 	public void dumpGrid() 
 	{
 		// TODO Auto-generated method stub

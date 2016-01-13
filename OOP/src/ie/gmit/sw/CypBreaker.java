@@ -6,7 +6,7 @@ import java.util.concurrent.*;
 public class CypBreaker 
 {
 	private static final int MAXIMUM_QUEUE = 1000;
-	// stores the results for the plaintext, key and score
+	// stores values for score, plaintext and the scores
 	private BlockingQueue<Resultable> queue;
 	private String cypText;
 	private Resultable r = null;

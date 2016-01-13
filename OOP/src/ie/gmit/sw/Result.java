@@ -2,13 +2,14 @@ package ie.gmit.sw;
 
 public class Result implements Resultable 
 {
-	
+	// variables 
 	private String plainText;
 	private int key;
 	private double score;
 	
 	public Result(String plainText, int key, double score) 
 	{
+		// calls from the super class - 
 		super();
 		this.plainText = plainText;
 		this.key = key;
