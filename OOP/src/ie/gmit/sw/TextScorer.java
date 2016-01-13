@@ -16,7 +16,7 @@ public class TextScorer extends QMMap{
 		for (int i = 0; i < text.length(); i++){
 			if (i + QMMap.GRAM_SIZE <= text.length() -1){
 				score += calculateScore(text.substring(i, i + QMMap.GRAM_SIZE));
-				
+				 
 			}
 		}
 		return score;

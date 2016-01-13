@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 import ie.gmit.sw.EncryptionClass;
 
-public class RailFence 
+public class RailFence    
 {
 	
 	//***** Encrypt a String called cypherText using an integer key ***** 
@@ -194,6 +194,13 @@ public class RailFence
 			String inputText1 = new RailFence(). decrypt(inputText, 5);
 			System.out.println(" Decoded: " + inputText1);
 			
+			
+			if(inputText1 != msg)
+			{
+				System.out.println("If no result/ only numbers are inputted, then run program again");
+				
+			}
+			
 
 			
 			// scanner takes in input from the file
@@ -213,7 +220,7 @@ public class RailFence
 				
 				System.out.println("Decrypted Phrase: " + s);
 			}
-			scanner.close();
+						scanner.close();
 		} 
 		catch (FileNotFoundException e)
 		{

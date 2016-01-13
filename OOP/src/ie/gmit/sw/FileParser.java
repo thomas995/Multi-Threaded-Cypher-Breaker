@@ -4,7 +4,7 @@ import java.io.*;
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 
-// parses the file txt file and returns its value
+// parses the txt file and returns its value
 public class FileParser 
 {
 	public Map<String, Double> parse(String fileParsed) throws FileNotFoundException 
